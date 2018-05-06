@@ -7,6 +7,10 @@ shallow_clone: false
 
 environment:
   matrix:
+    - VCPKG_DEFAULT_TRIPLET: arm-uwp-static
+    - VCPKG_DEFAULT_TRIPLET: arm64-uwp-static
+    - VCPKG_DEFAULT_TRIPLET: x64-uwp-static
+    - VCPKG_DEFAULT_TRIPLET: x86-uwp-static
     - VCPKG_DEFAULT_TRIPLET: x86-windows
     - VCPKG_DEFAULT_TRIPLET: x86-windows-static
     - VCPKG_DEFAULT_TRIPLET: x64-windows
